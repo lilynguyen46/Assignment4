@@ -28,10 +28,11 @@ Get a list of all animals in the database
    "origin": "Asia"
  }
 ]
-````
+```
 ## /{id} (GET)
 Gets an individual animal by id.
 # Response
+```
 {
    "id": 1,
    "animal_name": "Tiger",
@@ -39,10 +40,11 @@ Gets an individual animal by id.
    "lifespan": 13,
    "origin": "Asia"
 }
-
+```
 ## /animalname (GET)
 Gets animal by name.
 # Response
+```
  {
    "id": 2,
    "animal_name": "Panda",
@@ -50,9 +52,11 @@ Gets animal by name.
    "lifespan": 20,
    "origin": "Asia"
  }
-
+```
  ## /animalorigin (GET)
  Gets animals by origin.
+ # Response 
+ ```
   {
    "id": 1,
    "animal_name": "Tiger",
@@ -74,10 +78,11 @@ Gets animal by name.
    "lifespan": 23,
    "origin": "Asia"
  }
-
+```
  ## /lifespan (GET)
  Gets animals by lifespan
  # Response
+ ```
   {
    "id": 2,
    "animal_name": "Panda",
@@ -85,10 +90,11 @@ Gets animal by name.
    "lifespan": 20,
    "origin": "Asia"
  }
-
+```
  ## /new (POST)
  Create a new animal.
  # Response
+ ```
 {
   "animal_name": "Cat",
   "description": "Cats, or Felis catus, are small, furry, carnivorous mammals known for their playful and curious nature, characterized by retractable claws, acute senses, and specialized teeth for hunting. ",
@@ -127,11 +133,12 @@ Gets animal by name.
   "origin": "Africa"
 }
 ]
-
+```
 ## /update/{id} (PUT)
 Update existing animal.
 Need integer for id 
 # Response 
+```
 {
   "animal_name": "Cat",
   "description": "Cats, or Felis catus, are small, furry, carnivorous mammals known for their playful and curious nature, characterized by retractable claws, acute senses, and specialized teeth for hunting. ",
@@ -148,12 +155,13 @@ Need integer for id
   "lifespan": 20,
   "origin": "Asia"
 }
-
+```
 ## /delete/{id} (DELETE)
 Delete an animal.
 Need integer for id.
 
 # Response
+```
 Updated list
 
 [
@@ -179,5 +187,5 @@ Updated list
    "origin": "Asia"
  }
 ]
- 
+```
 
