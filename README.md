@@ -4,6 +4,7 @@ Base URL: http://localhost:8080/animals
 ## /all (GET)
 Get a list of all animals in the database
 # Response
+```
 [
  {
    "id": 1,
@@ -27,7 +28,7 @@ Get a list of all animals in the database
    "origin": "Asia"
  }
 ]
-
+````
 ## /{id} (GET)
 Gets an individual animal by id.
 # Response
